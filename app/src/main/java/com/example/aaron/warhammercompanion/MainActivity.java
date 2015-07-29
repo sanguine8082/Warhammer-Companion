@@ -4,9 +4,13 @@ import android.app.Activity;
 import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
+import android.content.Intent;
+import android.widget.EditText;
 
 
 public class MainActivity extends Activity {
+    public final static String EXTRA_MESSAGE = "Dakka Dakka";
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -34,5 +38,13 @@ public class MainActivity extends Activity {
         }
 
         return super.onOptionsItemSelected(item);
+    }
+
+    public void get_shooting(View view){
+        Intent intent = new Intent(this, get_shooting.class);
+        startActivity(intent);
+    }
+    public void get_stabbing(View view){
+
     }
 }

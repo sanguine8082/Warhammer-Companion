@@ -1,6 +1,12 @@
 <resources>
     <string name="app_name">Warhammer Companion</string>
 
-    <string name="hello_world">Hello world!</string>
+    <string name="hello_world">Welcome to the GrimDark of the far future!</string>
     <string name="action_settings">Settings</string>
+    <string name="button_shooting">Shooting</string>
+    <string name="button_combat">Combat</string>
+    <string name="title_activity_get_shooting">get_shooting</string>
+    <string name="num_shots">How many shots?</string>
+    <string name="shooter_skill">What\'s your BS?</string>
+    <string name="empty"></string>
 </resources>

@@ -1,0 +1,48 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context="com.example.aaron.warhammercompanion.get_shooting">
+
+    <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/Welcome" />
+
+    <EditText android:id="@+id/num_shots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Welcome"
+        android:hint="@string/num_shots"
+        android:inputType="number">
+    </EditText>
+    <EditText android:id="@+id/shooter_skill"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/num_shots"
+        android:hint="@string/shooter_skill"
+        android:inputType="number" >
+    </EditText>
+    <Button android:id="@+id/set1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/num_shots"
+        android:layout_below="@id/Welcome"
+        android:text="Set"/>
+    <Button android:id="@+id/set2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_toRightOf="@id/shooter_skill"
+        android:layout_below="@id/set1"
+        android:text="Set"/>
+
+    <TextView
+        android:id="@+id/setText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/set2"
+        android:text="@string/empty"
+        />
+
+</RelativeLayout>

@@ -6,6 +6,22 @@
     android:paddingBottom="@dimen/activity_vertical_margin" tools:context=".MainActivity">
 
     <TextView android:text="@string/hello_world" android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:layout_height="wrap_content"
+        android:id="@+id/textView" />
+
+    <Button
+        android:id="@+id/Shooting"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_shooting"
+        android:layout_below="@+id/textView"
+        android:layout_alignParentStart="true"
+        android:onClick="get_shooting" />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/button_combat"
+        android:layout_below="@+id/Shooting"
+        android:onClick="get_stabbing" />
 
 </RelativeLayout>
