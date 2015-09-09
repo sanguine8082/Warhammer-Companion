@@ -31,10 +31,16 @@
         android:layout_toRightOf="@id/shooter_skill"
         android:layout_below="@id/set1"
         android:text="Set"/>
+    <Spinner
+        android:id="@+id/reroll_options"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/shooter_skill"
+        />
     <Button android:id="@+id/fire"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:layout_below="@id/set2"
+        android:layout_below="@id/reroll_options"
         android:text="Fire"/>
 
     <TextView
@@ -57,5 +63,6 @@
         android:textSize = "20sp"
         android:text="@string/empty"
         />
+
 
 </RelativeLayout>
