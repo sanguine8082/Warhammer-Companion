@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/WarhammerCompanion.iml" filepath="$PROJECT_DIR$/WarhammerCompanion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Warhammer-Companion.iml" filepath="$PROJECT_DIR$/Warhammer-Companion.iml" />
       <module fileurl="file://$PROJECT_DIR$/app/app.iml" filepath="$PROJECT_DIR$/app/app.iml" />
     </modules>
   </component>
